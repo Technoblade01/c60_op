@@ -1,0 +1,26 @@
+#apps {
+    text-align: center;
+    width: 100%;
+    height: 800px;
+    background: rgb(131, 58, 180);
+    background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+}
+
+#sprite {
+    text-align: center;
+    width: 100%;
+    height: 800px;
+    background: rgb(224, 56, 130);
+    background: linear-gradient(139deg, rgba(224, 56, 130, 1) 0%, rgba(164, 90, 135, 1) 0%, rgba(168, 88, 134, 1) 0%, rgba(160, 168, 88, 1) 0%, rgba(160, 168, 88, 1) 0%, rgba(153, 97, 139, 1) 0%, rgba(169, 88, 88, 1) 0%, rgba(74, 147, 165, 1) 0%, rgba(0, 112, 245, 1) 38%, rgba(184, 82, 151, 1) 100%);
+}
+img{
+    transition: transform .2s;
+}
+img:hover{
+    transform: scale(0.9);
+}
+#chatbot{
+    width: 100%;
+    height: 800px;
+    background-color: aquamarine;
+}
